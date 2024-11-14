@@ -45,7 +45,7 @@ public class CamelSpringrabbitmqsinkSinkConnectorConfig
     public static final String CAMEL_SINK_SPRINGRABBITMQSINK_KAMELET_EXCHANGE_NAME_DOC = "The exchange name determines the exchange the queue will be bound to";
     public static final String CAMEL_SINK_SPRINGRABBITMQSINK_KAMELET_EXCHANGE_NAME_DEFAULT = null;
     public static final String CAMEL_SINK_SPRINGRABBITMQSINK_KAMELET_QUEUES_CONF = "camel.kamelet.spring-rabbitmq-sink.queues";
-    public static final String CAMEL_SINK_SPRINGRABBITMQSINK_KAMELET_QUEUES_DOC = "The queue to receive messages from";
+    public static final String CAMEL_SINK_SPRINGRABBITMQSINK_KAMELET_QUEUES_DOC = "The queue to write messages to";
     public static final String CAMEL_SINK_SPRINGRABBITMQSINK_KAMELET_QUEUES_DEFAULT = null;
     public static final String CAMEL_SINK_SPRINGRABBITMQSINK_KAMELET_AUTO_DECLARE_PRODUCER_CONF = "camel.kamelet.spring-rabbitmq-sink.autoDeclareProducer";
     public static final String CAMEL_SINK_SPRINGRABBITMQSINK_KAMELET_AUTO_DECLARE_PRODUCER_DOC = "Specifies whether the producer should auto declare binding between exchange, queue and routing key when starting";
